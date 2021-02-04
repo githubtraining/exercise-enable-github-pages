@@ -1,0 +1,24 @@
+name: Grading workflow
+on: [page_build, workflow_dispatch]
+jobs:
+  grade-learner:
+    if: github.event_name == 'page_build'
+    runs-on: ubuntu-latest
+    steps:
+      - name: grade pages activity
+        id: pages
+        uses: githubtraining/check-pages-action@v1
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+      - name: More info
+        if: failure()
+        uses: githubtraining/looking-glass-action@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          feedback: ${{ steps.pages.outputs.report }}
+  troubleshoot-activity:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: troubleshooting steps
+        run: echo "To get started with this lab, go to the Settings tab, scroll down to the GitHub Pages section, choose the main branch and then choose the docs folder."
