@@ -24,6 +24,7 @@ A grading script and a setup utility exist inside of the `.github/` directory. Y
 ## Grading criteria
 
 To successfully complete this lab, the following conditions must be met:
+- Your repository must be public
 - GitHub Pages must be enabled
 - The GitHub Pages site must use the `main` branch as the source
 - The GitHub Pages site must use the `docs/` directory as the source
