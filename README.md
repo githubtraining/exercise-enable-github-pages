@@ -15,7 +15,7 @@ This lab is an exercise to check your knowledge on enabling GitHub Pages. It is 
 
 :warning: This lab utilizes [GitHub Actions](https://docs.github.com/en/actions), which is free for public repositories and self-hosted runners, but may incur charges on private repositories. See *[About billing for GitHub Actions]* to learn more.
 
-:information_source: The use of GitHub actions also means that it may take the grading workflow a few seconds and sometimes minutes to run.
+:information_source: The use of GitHub Actions also means that it may take the grading workflow a few seconds and sometimes minutes to run.
 
 ## Instructions
 
