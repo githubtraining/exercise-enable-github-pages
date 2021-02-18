@@ -6,8 +6,8 @@ This lab is an exercise to check your knowledge on enabling GitHub Pages. It is 
 - [About this lab](#about-this-lab)
 - [Instructions](#instructions)
 - [Seeing your result](#seeing-your-result)
-- [Useful resources](#useful-resources)
 - [Troubleshooting](#troubleshooting)
+- [Useful resources](#useful-resources)
 
 ## About this lab
 
@@ -27,6 +27,12 @@ Your lab is graded automatically once you have completed the instructions. To se
 If the workflow failed, scroll down to the **Annotations** section to check what went wrong.
 
 See *[Viewing workflow run history]* if you need assistance.
+
+## Troubleshooting
+
+ If the grading workflow does not automatically run after you complete the instructions, run the troubleshooter: in the **Actions** tab select the **Grading workflow**, click **Run workflow**, select the appropriate branch (usually `main`), and click the **Run workflow** button.
+
+ See *[Running a workflow on GitHub]* if you need assistance.
 
 ## Useful resources
 
@@ -49,9 +55,3 @@ Links used throughout this README:
 [Viewing workflow run history]:                                 https://docs.github.com/en/actions/managing-workflow-runs/viewing-workflow-run-history
 [Running a workflow on GitHub]:                                 https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow-on-github
 [GitHub Actions]:                                               https://docs.github.com/en/actions
-
-## Troubleshooting
-
- If the grading workflow does not automatically run after you complete the instructions, run the troubleshooter: in the **Actions** tab select the **Grading workflow**, click **Run workflow**, select the appropriate branch (usually `main`), and click the **Run workflow** button.
-
- See *[Running a workflow on GitHub]* if you need assistance.
