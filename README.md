@@ -17,7 +17,7 @@ This lab is an exercise to check your knowledge on enabling GitHub Pages. It is 
 
 ## Instructions
 
-1. Create your own copy of this repository by using the [Use this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) option. Make sure you set your repository visibility to **Public** when asked.
+1. Create your own copy of this repository by using the [Use this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) button. Make sure you set your repository visibility to **Public** when asked.
 2. In your newly created repository, enable GitHub Pages with the `main` branch and the `docs/` directory as the source for the GitHub Pages site.
 
 ## Seeing your result
