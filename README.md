@@ -13,7 +13,9 @@ This lab is an exercise to check your knowledge on enabling GitHub Pages. It is 
 
 :warning: A grading script and a setup utility exist inside of the `.github/` directory. You do not need to use these workflows for any purpose and **altering their contents will affect the repository's ability to assess your lab and give feedback.**
 
-:information_source: This lab utilizes [GitHub Actions]( https://docs.github.com/en/actions) to grade the exercise, which means that it may take the grading workflow a few seconds and sometimes minutes to run.
+:warning: This lab utilizes [GitHub Actions](https://docs.github.com/en/actions), which is free for public repositories and self-hosted runners, but may incur charges on private repositories. See *[About billing for GitHub Actions]* to learn more.
+
+:information_source: The use of GitHub actions also means that it may take the grading workflow a few seconds and sometimes minutes to run.
 
 ## Instructions
 
@@ -45,6 +47,7 @@ Resources for working with labs and GitHub Actions in general:
 - [Creating a repository from a template]
 - [Viewing workflow run history]
 - [Running a workflow on GitHub]
+- [About billing for GitHub Actions]
 - [GitHub Actions]
 
 <!--
@@ -54,4 +57,5 @@ Links used throughout this README:
 [Creating a repository from a template]:                        https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [Viewing workflow run history]:                                 https://docs.github.com/en/actions/managing-workflow-runs/viewing-workflow-run-history
 [Running a workflow on GitHub]:                                 https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow-on-github
+[About billing for GitHub Actions]:                             https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions
 [GitHub Actions]:                                               https://docs.github.com/en/actions
