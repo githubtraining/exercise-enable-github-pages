@@ -12,7 +12,7 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
       - name: More info
         if: failure()
-        uses: githubtraining/looking-glass-action@main
+        uses: githubtraining/looking-glass-action@87bf9957ac6899e95ff1c2f6f443de625c83c3f2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           feedback: ${{ steps.pages.outputs.report }}
