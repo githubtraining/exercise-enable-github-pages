@@ -5,9 +5,11 @@ jobs:
     if: github.event_name == 'page_build'
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      
       - name: grade pages activity
         id: pages
-        uses: ../actions/check-pages-action
+        uses: ./.github/actions/check-pages-action
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
       - name: More info
