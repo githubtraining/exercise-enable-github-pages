@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: grade pages activity
         id: pages
-        uses: githubtraining/check-pages-action@v1
+        uses: ../actions/check-pages-action
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
       - name: More info
