@@ -1,0 +1,11 @@
+name: "check pages"
+author: hectorsector
+description: "check if GitHub Pages was properly enabled in a repo"
+inputs:
+  github-token:
+    description: "Token for API access, use GITHUB_TOKEN"
+    required: true
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
