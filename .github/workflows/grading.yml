@@ -13,7 +13,7 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
       - name: More info
-        uses: githubtraining/looking-glass-action@f669c286f8d56eea80e8a69499ff183fe22071a8
+        uses: githubtraining/looking-glass-action@v0.1.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           feedback: ${{ steps.pages.outputs.reports }}
