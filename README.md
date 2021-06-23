@@ -1,19 +1,19 @@
-# Welcome to the lab on enabling GitHub Pages!
+# Welcome to the exercise on enabling GitHub Pages!
 
-This lab is an exercise to check your knowledge on enabling GitHub Pages. It is automatically graded via a workflow once you have completed the instructions.
+This exercise is an exercise to check your knowledge on enabling GitHub Pages. It is automatically graded via a workflow once you have completed the instructions.
 
 **Quick links:**
-- [About this lab](#about-this-lab)
+- [About this exercise](#about-this-exercise)
 - [Instructions](#instructions)
 - [Seeing your result](#seeing-your-result)
 - [Troubleshooting](#troubleshooting)
 - [Useful resources](#useful-resources)
 
-## About this lab
+## About this exercise
 
-:warning: A grading script and a setup utility exist inside of the `.github/` directory. You do not need to use these workflows for any purpose and **altering their contents will affect the repository's ability to assess your lab and give feedback.**
+:warning: A grading script and a setup utility exist inside of the `.github/` directory. You do not need to use these workflows for any purpose and **altering their contents will affect the repository's ability to assess your exercise and give feedback.**
 
-:warning: This lab utilizes [GitHub Actions](https://docs.github.com/en/actions), which is free for public repositories and self-hosted runners, but may incur charges on private repositories. See *[About billing for GitHub Actions]* to learn more.
+:warning: This exercise utilizes [GitHub Actions](https://docs.github.com/en/actions), which is free for public repositories and self-hosted runners, but may incur charges on private repositories. See *[About billing for GitHub Actions]* to learn more.
 
 :information_source: The use of GitHub Actions also means that it may take the grading workflow a few seconds and sometimes minutes to run.
 
@@ -24,7 +24,7 @@ This lab is an exercise to check your knowledge on enabling GitHub Pages. It is 
 
 ## Seeing your result
 
-Your lab is graded automatically once you have completed the instructions. To see the result of your lab, click the **Actions** tab, select the **Grading workflow**, and select the most recent workflow run. The status of the workflow indicates if you have passed or failed the lab.
+Your exercise is graded automatically once you have completed the instructions. To see the result of your exercise, click the **Actions** tab, select the **Grading workflow**, and select the most recent workflow run. The status of the workflow indicates if you have passed or failed the exercise.
 
 If the workflow failed, scroll down to the **Annotations** section to check what went wrong.
 
@@ -40,10 +40,10 @@ See *[Viewing workflow run history]* if you need assistance.
 
 Use these to help you!
 
-Resources specific to this lab:
+Resources specific to this exercise:
 - [Configuring a publishing source for your GitHub Pages site]
 
-Resources for working with labs and GitHub Actions in general:
+Resources for working with exercise and GitHub Actions in general:
 - [Creating a repository from a template]
 - [Viewing workflow run history]
 - [Running a workflow on GitHub]
